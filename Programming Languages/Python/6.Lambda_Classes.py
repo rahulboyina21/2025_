@@ -69,4 +69,37 @@ instances()
 iamgodofants.update("TTU")
 
 instances()
+ 
+ # Static Methods 
+
+class SM:
+    var = lambda a,b,c: (a**b)/c
+
+    # def __init__(self):
+        
+    @staticmethod
+    def mn(a):
+        print(f"{a}")
+
+print(SM.var(20,31,5))
+SM.mn("RAHUL BOYINA")
+
+# Public / Private / Protected 
+# None / __         / _
+
+class am:
+    __pvtvar="Private here"
+    _ptdvar="Protected here"
+
+
+    def __init__(self):
+        self.myname="Rahul"
+        
+    def _ptd():
+        print("Protected access granted")
+
+am._ptd()
+
+print(am._ptdvar)
+
 
