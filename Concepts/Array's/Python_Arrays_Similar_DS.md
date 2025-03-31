@@ -18,6 +18,8 @@ arr_var.pop(index) / arr_var.pop() -> removes the last element
 
 arr_var.remove(value) // Removes that particular value from the array
 
+# Unpacking array's and print them using the * infront of the array variable like *arr
+
 ```
 
 ## Lists 
