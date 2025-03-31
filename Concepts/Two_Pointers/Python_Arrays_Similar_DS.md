@@ -225,3 +225,10 @@ arr[arr >/</>=/<= value] = New Value // Here for the each element in the array s
   - ❌ List: Requires list comprehensions.  
   - ❌ `array.array`: No built-in filtering mechanism.  
   - ✅ NumPy: Supports **fast element-wise filtering** using conditions.
+ 
+
+### Key Takeaways
+- Lists are dynamic and support flexible operations.
+- `array.array` is type-restricted and lacks many built-in methods.
+- NumPy arrays are fixed-size but optimized for numerical computations.
+- ❌ `array.array`: No built-in method for insertion (**must convert to list first**).
