@@ -14,11 +14,11 @@
 
 | Algorithm Name | Short Description | Best Resource | When to Use | Complexity | Ease of Learning | Best Applied On | ✅ Completed |
 |---------------|------------------|---------------|-------------|------------|----------------|----------------|--------------|
-| Traversal | Iterating through array | [GeeksForGeeks](https://www.geeksforgeeks.org/arrays-in-c-cpp/) | Basic Operations | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
-| Insertion & Deletion | Adding/Removing Elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Dynamic Arrays | O(n) | ⭐⭐ (Easy) | Arrays, Lists | ⬜ |
-| Finding Max & Min | Finding the largest/smallest element | [CP Handbook](https://cses.fi/book.pdf) | Simple Queries | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
-| Reverse an Array | Reversing order | [Neetcode](https://neetcode.io/) | String/Array Reversal | O(n) | ⭐⭐ (Easy) | Arrays, Strings | ⬜ |
-| Swapping Elements | Exchanging values | [GFG](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/) | Sorting, Shuffling | O(1) | ⭐⭐ (Easy) | Arrays | ⬜ |
+| [Traversal](https://ideone.com/PozfIg#stdin) | Iterating through array | [GeeksForGeeks](https://www.geeksforgeeks.org/arrays-in-c-cpp/) | Basic Operations | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
+| [Insertion & Deletion](https://ideone.com/R8qqYP) | Adding/Removing Elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Dynamic Arrays | O(n) | ⭐⭐ (Easy) | Arrays, Lists | ⬜ |
+| [Finding Max & Min](https://ideone.com/NZhl2I) | Finding the largest/smallest element | [CP Handbook](https://cses.fi/book.pdf) | Simple Queries | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
+| [Reverse an Array](https://ideone.com/jAnmxF) | Reversing order | [Neetcode](https://neetcode.io/) | String/Array Reversal | O(n) | ⭐⭐ (Easy) | Arrays, Strings | ⬜ |
+| Swapping Elements | [Exchanging values](https://ideone.com/AYQ4cK) | [GFG](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/) | Sorting, Shuffling | O(1) | ⭐⭐ (Easy) | Arrays | ⬜ |
 | Left & Right Rotation | Shifting elements cyclically | [Codeforces EDU](https://codeforces.com/edu) | Circular Arrays | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
 
 ### 🟡 **Basic Algorithms**
