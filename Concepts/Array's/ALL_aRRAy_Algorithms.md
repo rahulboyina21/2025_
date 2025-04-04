@@ -14,22 +14,22 @@
 
 | Algorithm Name | Short Description | Best Resource | When to Use | Complexity | Ease of Learning | Best Applied On | ✅ Completed |
 |---------------|------------------|---------------|-------------|------------|----------------|----------------|--------------|
-| [Traversal](https://ideone.com/PozfIg#stdin) | Iterating through array | [GeeksForGeeks](https://www.geeksforgeeks.org/arrays-in-c-cpp/) | Basic Operations | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
-| [Insertion & Deletion](https://ideone.com/R8qqYP) | Adding/Removing Elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Dynamic Arrays | O(n) | ⭐⭐ (Easy) | Arrays, Lists | ⬜ |
-| [Finding Max & Min](https://ideone.com/NZhl2I) | Finding the largest/smallest element | [CP Handbook](https://cses.fi/book.pdf) | Simple Queries | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
-| [Reverse an Array](https://ideone.com/jAnmxF) | Reversing order | [Neetcode](https://neetcode.io/) | String/Array Reversal | O(n) | ⭐⭐ (Easy) | Arrays, Strings | ⬜ |
-| [Swapping Elements](https://ideone.com/AYQ4cK) | Exchanging values | [GFG](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/) | Sorting, Shuffling | O(1) | ⭐⭐ (Easy) | Arrays | ⬜ |
-| [Left & Right Rotation](https://ideone.com/Lmp5tv) | Shifting elements cyclically | [Codeforces EDU](https://codeforces.com/edu) | Circular Arrays | O(n) | ⭐⭐ (Easy) | Arrays | ⬜ |
+| [Traversal](https://ideone.com/PozfIg#stdin) | Iterating through array | [GeeksForGeeks](https://www.geeksforgeeks.org/arrays-in-c-cpp/) | Basic Operations | O(n) | ⭐⭐ (Easy) | Arrays | ✅ |
+| [Insertion & Deletion](https://ideone.com/R8qqYP) | Adding/Removing Elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Dynamic Arrays | O(n) | ⭐⭐ (Easy) | Arrays, Lists | ✅ |
+| [Finding Max & Min](https://ideone.com/NZhl2I) | Finding the largest/smallest element | [CP Handbook](https://cses.fi/book.pdf) | Simple Queries | O(n) | ⭐⭐ (Easy) | Arrays | ✅ |
+| [Reverse an Array](https://ideone.com/jAnmxF) | Reversing order | [Neetcode](https://neetcode.io/) | String/Array Reversal | O(n) | ⭐⭐ (Easy) | Arrays, Strings | ✅ |
+| [Swapping Elements](https://ideone.com/AYQ4cK) | Exchanging values | [GFG](https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/) | Sorting, Shuffling | O(1) | ⭐⭐ (Easy) | Arrays | ✅ |
+| [Left & Right Rotation](https://ideone.com/Lmp5tv) | Shifting elements cyclically | [Codeforces EDU](https://codeforces.com/edu) | Circular Arrays | O(n) | ⭐⭐ (Easy) | Arrays | ✅ |
 
 ### 🟡 **Basic Algorithms**
 
 | Algorithm Name | Short Description | Best Resource | When to Use | Complexity | Ease of Learning | Best Applied On | ✅ Completed |
 |---------------|------------------|---------------|-------------|------------|----------------|----------------|--------------|
-| [Bubble Sort](https://ideone.com/mPFvnL) | Repeatedly swapping adjacent elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Small datasets | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
-| [Selection Sort](https://ideone.com/CVQjwV) | Selecting minimum element each pass | [CS50](https://cs50.harvard.edu/) | Learning Sorting | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
-| [Insertion Sort](https://ideone.com/0ILTf3) | Inserting elements at correct position | [Neetcode](https://neetcode.io/) | Small sorted data | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
-| [Merge Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Merge_Sort.md) | Divide & Conquer Sorting | [TopCoder](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming) | Large datasets | O(n log n) | ⭐⭐⭐⭐ (Easy-Moderate) | Arrays | ⬜ |
-| [Quick Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Quick_Sort.md) | Pivot-based Sorting | [CP Handbook](https://cses.fi/book.pdf) | General-purpose | O(n log n) | ⭐⭐⭐⭐ (Moderate) | Arrays | ⬜ |
+| [Bubble Sort](https://ideone.com/mPFvnL) | Repeatedly swapping adjacent elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Small datasets | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ✅ |
+| [Selection Sort](https://ideone.com/CVQjwV) | Selecting minimum element each pass | [CS50](https://cs50.harvard.edu/) | Learning Sorting | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ✅ |
+| [Insertion Sort](https://ideone.com/0ILTf3) | Inserting elements at correct position | [Neetcode](https://neetcode.io/) | Small sorted data | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ✅ |
+| [Merge Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Merge_Sort.md) | Divide & Conquer Sorting | [TopCoder](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming) | Large datasets | O(n log n) | ⭐⭐⭐⭐ (Easy-Moderate) | Arrays | ✅ |
+| [Quick Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Quick_Sort.md) | Pivot-based Sorting | [CP Handbook](https://cses.fi/book.pdf) | General-purpose | O(n log n) | ⭐⭐⭐⭐ (Moderate) | Arrays | ✅ |
 
 ### 🟠 **Intermediate Algorithms**
 
