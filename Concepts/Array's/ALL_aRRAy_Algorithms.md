@@ -27,9 +27,9 @@
 |---------------|------------------|---------------|-------------|------------|----------------|----------------|--------------|
 | [Bubble Sort](https://ideone.com/mPFvnL) | Repeatedly swapping adjacent elements | [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) | Small datasets | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
 | [Selection Sort](https://ideone.com/CVQjwV) | Selecting minimum element each pass | [CS50](https://cs50.harvard.edu/) | Learning Sorting | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
-| Insertion Sort | Inserting elements at correct position | [Neetcode](https://neetcode.io/) | Small sorted data | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
-| Merge Sort | Divide & Conquer Sorting | [TopCoder](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming) | Large datasets | O(n log n) | ⭐⭐⭐⭐ (Easy-Moderate) | Arrays | ⬜ |
-| Quick Sort | Pivot-based Sorting | [CP Handbook](https://cses.fi/book.pdf) | General-purpose | O(n log n) | ⭐⭐⭐⭐ (Moderate) | Arrays | ⬜ |
+| [Insertion Sort](https://ideone.com/0ILTf3) | Inserting elements at correct position | [Neetcode](https://neetcode.io/) | Small sorted data | O(n²) | ⭐⭐⭐ (Moderate) | Arrays | ⬜ |
+| [Merge Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Merge_Sort.md) | Divide & Conquer Sorting | [TopCoder](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming) | Large datasets | O(n log n) | ⭐⭐⭐⭐ (Easy-Moderate) | Arrays | ⬜ |
+| [Quick Sort](https://github.com/rahulboyina21/2025_/blob/main/Concepts/Sorting/Quick_Sort.md) | Pivot-based Sorting | [CP Handbook](https://cses.fi/book.pdf) | General-purpose | O(n log n) | ⭐⭐⭐⭐ (Moderate) | Arrays | ⬜ |
 
 ### 🟠 **Intermediate Algorithms**
 
