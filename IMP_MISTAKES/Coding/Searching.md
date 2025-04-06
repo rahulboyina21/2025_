@@ -227,6 +227,11 @@ class Solution:
 
 ```
 
+### Conqured the Title the best time complexity title goes to the all mighty undisputed Rockyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+![image](https://github.com/user-attachments/assets/fa75f0dd-b691-4ed4-af25-499eee9644d5)
+![image](https://github.com/user-attachments/assets/b1962667-da68-47a2-b42a-a51f067f7e89)
+
+
 ![image](https://github.com/user-attachments/assets/3a5495fd-0d13-4f20-b0ee-c913c7908b0c)
 
 
