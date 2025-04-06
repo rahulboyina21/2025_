@@ -43,7 +43,7 @@ print(BS(arr, 4, 0, len(arr) - 1))
 | Problem | Platform |
 |--------|----------|
 | Find element in sorted array | [LeetCode 704](https://leetcode.com/problems/binary-search/) |
-| First and Last Occurrence | [LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+| [First and Last Occurrence](https://github.com/rahulboyina21/2025_/blob/main/IMP_MISTAKES/Coding/Searching.md#you-should-make-a-mistak-only-once-and-never-again) | [LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
 | Count of occurrences | GFG: Count Occurrences |
 | Square root (floor) | [LeetCode 69](https://leetcode.com/problems/sqrtx/) |
 | Search Insert Position | [LeetCode 35](https://leetcode.com/problems/search-insert-position/) |
