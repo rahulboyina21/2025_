@@ -1,14 +1,9 @@
 # You should Make a mistak only once and never again
-
-[Bugs and Mistakes](#️rahuls-bug--debug-log--binary-search-range-problem)
-<br>
-[Learnings](#what-i-learned)
-
 ## LOL Mistakes
 <details open>
 <summary><strong>All Mighty BS -> Sorry -> Binary Search</strong></summary>
 <br>
-  
+
 ``` Python BS
 
 class Solution:
@@ -239,8 +234,8 @@ class Solution:
 ![image](https://github.com/user-attachments/assets/3a5495fd-0d13-4f20-b0ee-c913c7908b0c)
 
 
-# 🛠️ Rahul's #Bug & Debug Log – Binary Search Range Problem
-
+# 🛠️ Rahul's Bug & Debug Log – Binary Search Range Problem
+#tt
 This log tracks all the bugs, logic gaps, and warrior-level fixes I went through while solving the Binary Search Range problem using recursion.
 
 ---
@@ -261,7 +256,7 @@ This log tracks all the bugs, logic gaps, and warrior-level fixes I went through
 
 ---
 
-## 🧠 What I #Learned
+## 🧠 What I Learned
 
 - Binary Search is not just about finding — it's about confirming the first/last position even after finding.
 - Clean fallback logic prevents edge case failures.
