@@ -1,0 +1,71 @@
+GO Lang:
+
+1. Mistake i did 
+
+func main()
+{
+
+}
+
+// This has caused the system to throw an error into the terminal reason being the the func and the { opening curly braces should be in the same line weired but it's the rule
+
+// Why is this the case is 
+
+// Every new line is treated like semicolmn in the GoLang so 
+
+main()
+{
+
+}
+
+is actually main() ;
+{
+
+}
+So, the statement is terminated halfway without any syntactical correctness.
+
+
+2. Importing multiple items at the sametime 
+
+import statment 
+
+everything in the go is made up of the packages but how we are going to get hold of them which are diveresed in the one source is
+using the import statement 
+
+import "pkg1" if you have a single package 
+
+but id you have multiple packages then the best optimal way of doing it is 
+
+import 
+(
+    "pkg1"
+    "pkg2"
+    "pkg3"
+)
+incorrect way of doing is 
+import ("pkg1" "pkg2") -> can be considered as the concatination operation which will result in a error 
+
+Alternative way
+
+import("pkg1")
+import("pkg2")
+
+How to use the imported values in the code
+
+like if i import import("math/rand") Now rand will act as a package where i will use to get the data / info needed to move forward
+
+so fmt.Printf("%d",rand.Intn(10))
+
+// Always export with the capital named variables like pi(invalid) Pi(valid)
+But Why 
+
+GO LACKS THE ACCESS Modifiers so 
+
+Private is "Lower Case Varibles" pi
+
+Public is "Upper Case Variables"  Pi
+
+automatically exported and ready to be used when imported i mean if you have the variables in the inital capital letter.
+
+
+
