@@ -16,7 +16,7 @@ class Solution {
                 sum+=nums[i];
             }
             maxsum=Math.max(maxsum,sum);
-            if(sum<0) sum=0;
+            // if(sum<0) sum=0;
         }
 
         return maxsum;
