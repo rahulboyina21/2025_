@@ -60,51 +60,48 @@ class Solution {
         3. Now multiply both of the values then we have the summation.
          */
 
+        final int arraySize=nums.length;
 
-
-        Boolean foundZero=false;
-
-        int arraySize=nums.length;
-
-        if(arraySize == 1 ) return nums;
+        if(arraySize == 1 ) return nums.clone();
 
         if(arraySize == 0 ) throw new IllegalArgumentException("Invalid number of args");
 
         int zeroCounter=0,zeroIndex=-1,prefixVariable=1,postfixVariable=1,productAll=1;
         Boolean flag=false;
-        int[] prepostfix = new int[arraySize];
-        int[] postfix = new int[arraySize];
+        final int[] prepostfix = new int[arraySize];
 
         for(int i=0;i<arraySize;++i)
         {
             int value=nums[i];
 
-            // if(value==0) 
-            // {
-            //     ++zeroCounter;
-            //     zeroIndex=i;
-            //     flag=!flag;
-            // }
-            // else productAll*=value;
-            // if(!flag)
+            if(value==0) 
+            {
+                ++zeroCounter;
+                zeroIndex=i;
+                flag=!flag;
+            }
+            else productAll*=value;
+            if(!flag)
             {
                 prepostfix[i]=prefixVariable;
                 prefixVariable*=value;
             }
-            // if(zeroCounter>1) return new int[nums.length];
+            if(zeroCounter>1) return new int[nums.length];
         }
-        // if(zeroCounter!=0)
-        // {
-        //     Arrays.fill(nums,0);
-        //     nums[zeroIndex]=productAll;
-        //     return nums;
-        // }
+        if(zeroCounter!=0)
+        {
+            Arrays.fill(nums,0);
+            nums[zeroIndex]=productAll;
+            return nums;
+        }
         for(int i=arraySize-1;i>=0;--i)
         {
             prepostfix[i]*=postfixVariable;
             postfixVariable*=nums[i];
         }
         return prepostfix;
+
+
 
     }
 }
