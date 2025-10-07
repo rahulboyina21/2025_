@@ -79,26 +79,26 @@ class Solution {
         {
             int value=nums[i];
 
-            if(value==0) 
-            {
-                ++zeroCounter;
-                zeroIndex=i;
-                flag=!flag;
-            }
-            else productAll*=value;
-            if(!flag)
+            // if(value==0) 
+            // {
+            //     ++zeroCounter;
+            //     zeroIndex=i;
+            //     flag=!flag;
+            // }
+            // else productAll*=value;
+            // if(!flag)
             {
                 prepostfix[i]=prefixVariable;
                 prefixVariable*=value;
             }
-            if(zeroCounter>1) return new int[nums.length];
+            // if(zeroCounter>1) return new int[nums.length];
         }
-        if(zeroCounter!=0)
-        {
-            Arrays.fill(nums,0);
-            nums[zeroIndex]=productAll;
-            return nums;
-        }
+        // if(zeroCounter!=0)
+        // {
+        //     Arrays.fill(nums,0);
+        //     nums[zeroIndex]=productAll;
+        //     return nums;
+        // }
         for(int i=arraySize-1;i>=0;--i)
         {
             prepostfix[i]*=postfixVariable;
