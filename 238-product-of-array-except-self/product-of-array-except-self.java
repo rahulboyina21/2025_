@@ -13,6 +13,55 @@ class Solution {
             op is +ve and current element is -ve(Encountered even -ve's) make it negative 
         */
 
+        // Boolean foundZero=false;
+
+        // int arraySize=nums.length;
+
+        // if(arraySize == 1 ) return nums;
+
+        // if(arraySize == 0 ) throw new IllegalArgumentException("Invalid number of args");
+
+        // int zeroCounter=0,productAll=1,zeroIndex=-1;
+        // for(int i=0;i<arraySize;++i)
+        // {
+        //     int value=nums[i];
+
+        //     if(value==0) 
+        //     {
+        //         ++zeroCounter;
+        //         zeroIndex=i;
+        //     }
+        //     else
+        //     {
+        //         productAll*=value;
+        //     }
+        //     if(zeroCounter>1) return new int[nums.length];
+        // }
+        // if(zeroCounter!=0)
+        // {
+        //     Arrays.fill(nums,0);
+        //     nums[zeroIndex]=productAll;
+        //     return nums;
+        // }
+        // for(int i=0;i<arraySize;++i)
+        // {
+        //         int updatedValue=productAll/nums[i];
+        //         nums[i]=updatedValue;
+        // }
+        // return nums;
+
+        /*
+        I got the feedback saying this is not what we wanted to achieve many times we are not math matically leniant in any math expression but we do more on the thinking in terms logical framework 
+        i got the input to use the prefix and postfix to calculate this let's understand 
+
+        1. prefix till element x
+        2. postfix reverse from the end element to the actual element
+        // in both the pre and post fix we are excluding the current element in the calucaltion
+        3. Now multiply both of the values then we have the summation.
+         */
+
+
+
         Boolean foundZero=false;
 
         int arraySize=nums.length;
@@ -21,7 +70,11 @@ class Solution {
 
         if(arraySize == 0 ) throw new IllegalArgumentException("Invalid number of args");
 
-        int zeroCounter=0,productAll=1,zeroIndex=-1;
+        int zeroCounter=0,zeroIndex=-1,prefixVariable=1,postfixVariable=1,productAll=1;
+        Boolean flag=false;
+        int[] prepostfix = new int[arraySize];
+        int[] postfix = new int[arraySize];
+
         for(int i=0;i<arraySize;++i)
         {
             int value=nums[i];
@@ -30,10 +83,13 @@ class Solution {
             {
                 ++zeroCounter;
                 zeroIndex=i;
+                flag=!flag;
             }
-            else
+            else productAll*=value;
+            if(!flag)
             {
-                productAll*=value;
+                prepostfix[i]=prefixVariable;
+                prefixVariable*=value;
             }
             if(zeroCounter>1) return new int[nums.length];
         }
@@ -43,11 +99,12 @@ class Solution {
             nums[zeroIndex]=productAll;
             return nums;
         }
-        for(int i=0;i<arraySize;++i)
+        for(int i=arraySize-1;i>=0;--i)
         {
-                int updatedValue=productAll/nums[i];
-                nums[i]=updatedValue;
+            prepostfix[i]*=postfixVariable;
+            postfixVariable*=nums[i];
         }
-        return nums;
+        return prepostfix;
+
     }
 }
